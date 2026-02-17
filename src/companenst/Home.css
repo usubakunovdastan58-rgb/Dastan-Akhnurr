@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  background: #fff;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff7a00;
+}
+
+.location {
+  color: #444;
+  font-size: 14px;
+}
+
+.header-actions button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn {
+  background: transparent;
+}
+
+.login-btn {
+  background: #ff7a00;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(90deg, #ffb300, #ff8f00);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 60px 80px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.search-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 420px;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #ffe0b2;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.search-form button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  background: #ff7a00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+/* DEALS */
+.deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+.deal-card {
+  background: white;
+}
+
+.deal-image {
+  position: relative;
+}
+
+.deal-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.discount {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #ffb300;
+  color: white;
+  padding: 8px 10px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.deal-card h3 {
+  margin-top: 10px;
+}
+
+.days {
+  display: inline-block;
+  margin-top: 6px;
+  background: #ffe0b2;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
